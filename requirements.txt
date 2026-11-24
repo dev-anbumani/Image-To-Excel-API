@@ -1,0 +1,21 @@
+# Web framework
+Django==5.2.19
+djangorestframework==3.18.3
+django-cors-headers==4.9.0
+python-dotenv==1.2.4
+
+# OCR (CPU build of PaddlePaddle; see README for the package index URL)
+paddlepaddle==3.2.0
+paddleocr==3.3.3
+paddlex[ocr]==3.3.13
+
+# Image processing / spreadsheet output
+opencv-contrib-python==4.10.0.84
+pillow==13.0.0
+numpy==2.3.5
+openpyxl==3.1.5
+
+# Pinned to builds that Windows Smart App Control allows to load
+sentencepiece==0.2.1
+crc32c==2.7.1
+pycryptodome==3.23.0
